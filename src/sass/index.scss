@@ -1,0 +1,36 @@
+
+$green : #19FC05;
+$red : #E40000;
+
+$primary : #66B2FF;
+$dark : #0A1929;
+$dark-emphasis : #132F4C;
+
+@import "~bootstrap/scss/bootstrap";
+
+.btn-pagination{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: $dark-emphasis;
+    color: $secondary;
+
+    &:hover{
+        border-color: white;
+        background-color: $primary;
+    }
+
+    &.selected{
+        color: white;
+    }
+}
+
+.carousel-item-image{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.coins-item-image{
+    width: 3rem;
+    height: 3rem;
+}
